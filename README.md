@@ -3,7 +3,7 @@
 Analyse automatique de matchs de football en temps réel avec YOLO et computer vision.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![YOLO](https://img.shields.io/badge/YOLO-v11-green.svg)
+![YOLO](https://img.shields.io/badge/YOLO-v26-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Fonctionnalités
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ### Dépendances principales
 
-- `ultralytics` - YOLO v11 pour la détection
+- `ultralytics` - YOLO v26 pour la détection
 - `opencv-python` - Traitement d'images
 - `numpy` - Calculs numériques
 - `scikit-learn` - K-means pour classification des couleurs

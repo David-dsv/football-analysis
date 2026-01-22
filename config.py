@@ -25,9 +25,9 @@ def get_device() -> str:
 @dataclass
 class ModelConfig:
     """Configuration des modèles YOLO"""
-    # Modèles de détection
-    detection_model: str = "yolo11m.pt"  # ou yolo11n.pt pour temps réel
-    pose_model: str = "yolo11m-pose.pt"  # ou yolo11n-pose.pt pour temps réel
+    # Modèles de détection (YOLO26 - janvier 2026)
+    detection_model: str = "yolo26m.pt"  # ou yolo26n.pt pour temps réel
+    pose_model: str = "yolo26m-pose.pt"  # ou yolo26n-pose.pt pour temps réel
 
     # Seuils de détection (abaissés pour détecter plus de joueurs)
     detection_confidence: float = 0.3  # Réduit de 0.5 pour plus de détections

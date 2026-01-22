@@ -4,7 +4,7 @@ language:
 - fr
 license: mit
 tags:
-- yolo
+- yolo26
 - computer-vision
 - object-detection
 - sports
@@ -19,7 +19,7 @@ pipeline_tag: object-detection
 
 ## Model Description
 
-This project uses **YOLO v11** models for real-time football match analysis, including:
+This project uses **YOLO v26** models for real-time football match analysis, including:
 
 - Player detection and tracking
 - Team classification by jersey color
@@ -38,10 +38,10 @@ This project uses **YOLO v11** models for real-time football match analysis, inc
 
 | Model | Purpose | Size |
 |-------|---------|------|
-| `yolo11m.pt` | Player/ball detection | ~50MB |
-| `yolo11m-pose.pt` | Pose estimation (optional) | ~50MB |
+| `yolo26m.pt` | Player/ball detection | ~50MB |
+| `yolo26m-pose.pt` | Pose estimation (optional) | ~50MB |
 
-Download models from [Ultralytics](https://docs.ultralytics.com/models/yolo11/).
+Download models from [Ultralytics](https://docs.ultralytics.com/models/yolo26/).
 
 ## How to Use
 
@@ -104,7 +104,7 @@ device = "mps"              # Auto-detected: mps/cuda/cpu
 
 ## Training Data
 
-This project uses pre-trained YOLO v11 models from Ultralytics, trained on:
+This project uses pre-trained YOLO v26 models from Ultralytics, trained on:
 - COCO dataset (person, sports ball classes)
 - No additional fine-tuning on football-specific data
 
@@ -118,9 +118,9 @@ This project uses pre-trained YOLO v11 models from Ultralytics, trained on:
 
 ```bibtex
 @software{football_analysis,
-  title={Football Match Analysis with YOLO},
-  year={2025},
-  url={https://github.com/YOUR_USERNAME/football-analysis}
+  title={Football Match Analysis with YOLO v26},
+  year={2026},
+  url={https://github.com/David-dsv/football-analysis}
 }
 ```
 
